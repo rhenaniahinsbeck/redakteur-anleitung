@@ -9,7 +9,7 @@ lang: "en"
 titlepage: "true"
 logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
-page-background : "images/rhenania-hinsbeck-vektor-opacity.svg"
+page-background : "images/rhenania-hinsbeck-background.jpg"
 # reveal settings
 # simple black white league beige sky night serif simple solarized blood moon
 theme: simple
