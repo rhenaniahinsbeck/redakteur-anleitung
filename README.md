@@ -7,8 +7,8 @@ subject: "Rhenania Hinsbeck Webseiten - Anleitung f√ºr Trainer und Offizielle f√
 keywords: [Fontys, Markdown, Agile]
 lang: "en"
 titlepage: "true"
-logo: "images/fontyslogo.png"
-titlepage-rule-color: "400070"
+logo: "images/rhenania-logo.gif"
+titlepage-rule-color: "000080"
 page-background : "images/rhenania-hinsbeck-background.jpg"
 # reveal settings
 # simple black white league beige sky night serif simple solarized blood moon
