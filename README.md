@@ -7,7 +7,7 @@ subject: "Rhenania Hinsbeck Webseiten - Anleitung f√ºr Trainer und Offizielle f√
 keywords: [Fontys, Markdown, Agile]
 lang: "en"
 titlepage: "true"
-logo: "images/rhenania-logo.gif"
+logo: "images/rhenania-logo.jpg"
 titlepage-rule-color: "000080"
 page-background : "images/rhenania-hinsbeck-background.jpg"
 # reveal settings
