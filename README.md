@@ -1,15 +1,15 @@
 ---
-title: "Presentation slides and report template"
-subtitle: "How to make slides and a report with markdown from one source"
+title: "Rhenania Hinsbeck Webseiten - Anleitung für Redakteure"
+subtitle: "Rhenania Hinsbeck Webseiten - Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3"
 author: [Stefan Sobek]
 date: "2020-06-10"
-subject: "How to make slides and a report with markdown from one source"
+subject: "Rhenania Hinsbeck Webseiten - Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3"
 keywords: [Fontys, Markdown, Agile]
 lang: "en"
 titlepage: "true"
 logo: "images/fontyslogo.png"
 titlepage-rule-color: "400070"
-page-background : "images/fontyslogo-background.png"
+page-background : "images/rhenania-hinsbeck-vektor-opacity.svg"
 # reveal settings
 # simple black white league beige sky night serif simple solarized blood moon
 theme: simple
@@ -24,8 +24,8 @@ revealOptions:
   progress: true
   width: 1248
   height: 800
-  parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'
-  parallaxBackgroundSize: '2100px 1024px'
+  #parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'
+  #parallaxBackgroundSize: '2100px 1024px'
   #autoSlide: 4000
   #loop: true
 
@@ -33,148 +33,113 @@ revealOptions:
 ...
 ---
 
-# Presentation slides and report template
-<!-- .slide: data-background="images/slides-headline-background.jpg" -->
-
-A useful template for making your slides with markdown and revealjs and on top of that create a nice pdf with eisvogel template.
-
-<!-- s -->
-
-## Why?
-
-- normal presentations are boring<!-- .element: class="fragment" -->
-- still differences in the platforms even in MS power point, e.g. Windows, Mac or Linux.<!-- .element: class="fragment" -->
-- Usually you multiple sources and multiple output documents so not only slides but maybe also papers you would like to provide for the students.<!-- .element: class="fragment" -->
-- These papers are currently in pdf form delivered to the students, and can also be simple pdfs of the slides.<!-- .element: class="fragment" -->
-- Solution wanted having one single source and decide what to have in the slides and maybe also additional and more detaillled information in a paper as pdf, docx or webpage.<!-- .element: class="fragment" -->
+# Rhenania Hinsbeck Webseiten - Anleitung für Redakteure
+<!-- .slide: data-background="images/rhenania-hinsbeck-vektor-opacity.svg" -->
+Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3
 
 <!-- s -->
 
-## Current solution
+## Rhenania Hinsbeck Webseiten - Typo3
 
-- [The HTML presentation framework | reveal.js](https://revealjs.com/) presentations.
-- is still tech based (HTML)
-- Now based on Markdown, as simple language
-- Simple to write and support for transforming it into other document types, e.g. with pandoc is pretty good.
+- Dieses Dokument ist eine Anleitung für Trainer und Offizielle.
+- Trainer sollen mit Hilfe dieser Anleitung in der Lage sein, sich in Typo3 - das Content Management System für die Webseiten [www.rhenaniahinsbeck.de](https://www.rhenaniahinsbeck.de) einzuloggen, und Fotos und Berichte ihrer Mannschaft zu veröffentlichen
 
 <!-- s -->
 
-## How to use this template
+## Einloggen auf www.rhenaniahinsbeck.de
 
-- Use this as **template** instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option 
+- Einen Internetbrowser auf dem PC öffnen und [www.rhenaniahinsbeck.de](https://www.rhenaniahinsbeck.de/typo3/) eingeben
+
+![Einloggen](images/01-einloggen.jpg)
+
+- Hier **Benutzername** und **Passwort** eintragen und auf **Login** drücken
+
+- Falls ihr Trainer seid und über noch keine Login Daten verfügt, bitte wendet euch an Jürgen Cleven. 
+- Sobald ihr erfolgreich eingeloggt seid, bekommt ihr eine Übersicht über die Seiten, die ihr Bearbeiten könnt. 
   
-![Template button](images/template-button.jpg)
+![Seitenübersicht](images/02-uebersicht.jpg)
 
-- Now you can create an own repository based on this repository.
+## Einen neuen Spielbericht anlegen
 
-<!-- s -->
+Für das Anlegen eines neuen Spielberichtes muss zuerst eine neue Seite angelegt werden.
 
-## Create a report
+### Neue Seite anlegen
 
-- Luckily, it will be done automatically by github actions (due to the [make-pdf.yml file](.github/workflows/make-pdf.yml)) of course
-- If you now click on Actions tab and then on the first build 
+- Ggf. Seitenbaum ausklappen damit alle weiteren Seiten angezeigt werden
 
-![Actions tab](images/actions1.jpg) 
+![Ausklappen](images/03-ausklappen.jpg)
 
-<!-- s -->
-- then click on the report.pdf file if the build is green 
+- Dort auf den ersten Eintrag klicken, wo man auch eine neue Seite (also Bericht) anlegen möchte
 
-![Actions tab](images/actions2.jpg) 
+![click-seite](images/03-click-document.jpg)
 
-- you will download a PDF which was generated from the README.md file. Nice! 
-- How to adapt that see a later chapter. 
-  
-<!-- s -->  
+- Jetzt erscheint ein Menu, dort auf **neu** klicken
 
+![neu](images/04-neu.jpg)
 
-## Create a presentation
+- Den Titel und den Untertitel ausfüllen, weshalb Untertitel, sehen wir später
 
-- Now I want a presentation from the same content.
-- Prerequisite is having docker installed on your machine.
-  - [Get Docker | Docker Documentation](https://docs.docker.com/get-docker/)
-- With docker running, first **clone** your repository to your local machine. 
+![Seite neu erstellen](images/05-seite-neu-erstellen.jpg)
 
-<!-- s -->
+- Mit dem Untertitel, wird auf der Seite der Untertiteltext bestimmt, siehe:
 
-- Go into the directory and do the following in a Terminal/Command line: 
+![](images/06-seite-neu-erstellen.jpg)
 
-```bash
-docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
-```
+- Habt ihr Titel und Untertitel ausgefüllt, speichern!
 
-![reveal-markdown docker image](images/reveal1.gif)
+![Speichern](images/07-speichern.jpg)
 
-<!-- s -->
+- Jetzt ist die Seite schon verfügbar, allerdings noch ohne Inhalt, außer Titel und Untertitel.
 
-- Now open `http://localhost1948`in your browser.
-- click on the README.md link: 
-![README.md](images/reveal2.jpg)
-- HTML Presentation starts!
+### Inhalt der neuen Seite anlegen
 
-![README.md](images/reveal3.jpg)
+Natürlich sollen auch Bilder und Text auf diese Seite. 
 
-<!-- v -->
+- Im Seitenbaum auf der linken Seite auf die gerade neu erstellt Seite mittig klicken
 
-## Further information
+![Neuer Inhalt](images/08-neuer-inhalt.jpg)
 
-### Adapt presentation data
+- Auf **+ Inhalt** klicken
 
-- So you should of course change all the text here in the README.md file and put your own (course) content in here. 
-  
-<!-- v -->
+![Inhalt hinzufügen](images/09-inhalt-hinzu.jpg)
 
-#### Adapt title, subtitle and more
+- **Text & Bilder** auswählen
 
-- to change it you have to change the parameters in the beginning of the document, here a snippet:
+![Text und Bilder](images/10-text-bilder.jpg)
 
+- Auf der folgenden Seite 
+  - Auf dem Reiter **Allgemein**
+  - Die **Überschrift** eintragen
+  - Das **Datum** eintragen
+  - Unter **Text** den Spielbericht/Turnierbericht/Sonstiges eintragen
 
-<!-- v -->
+![Bericht](images/11-bericht.jpg)
 
-```json
-...
-title: "Presentation slides and report template"
-subtitle: "How to make slides and a report with markdown from one source"
-author: [Stefan Sobek]
-date: "2020-06-10"
+- Um Bilder hinzuzufügen im Reiter auf **Bilder** klicken
+- Auf Bild hinzufügen klicken um Bilder hochzuladen und auszuwählen. 
+- Dazu erst auf **Choose Files**
+- Dann nach dem Hochladen auf das **+** Symbol nebem dem gewünschtem Bild klicken. 
+- Hilfreich ist auch **Vorschaubilder anzeigen**
+- Bei **Position und Ausrichtung** bietet sich **Im Text rechts** an, Wahl ist aber frei, gerne selbst Wählen.
+- Anzahl Spalten bietet sich 1 oder 2 an, aber auch hier, je nach Gusto wählen, ggf. später ändern falls nicht gefällt.
+- Zum Schluss wieder Speichern wie oben beschrieben.
 
-...
+![Bilder](images/12-bericht-bilder.jpg)
 
-```
+![Bilder upload](images/13-pic-upload.jpg)
 
-<!-- v -->
+![Save](images/14-save.jpg)
 
-- The first options belong to the report, such as title and subtitle. 
-- Starting from `# reveal settings` the settings for revealjs begin
-- As the pdf report settings are quite self explaining, I will provide some infos for how to change some specific things in the presentation.
+- Jetzt ist die Seite veröffentlicht. 
+- Um das Ergebnis anzuschauen entweder auf [www.rhenaniahinsbeck.de]](https://www.rhenaniahinsbeck.de/) gehen und bis zur Seite klicken oder einfacher:
+- auf das Dateisymbol klicken
 
-<!-- v -->
+![Ergebnis](images/15-ergebnis.jpg)
 
-- theme:
-  - choose one theme from the provided presenation themes: # simple black white league beige sky night serif simple solarized blood moon 
-- e.g. `theme: simple`
+- **Ansehen** auswählen
 
-<!-- v -->
+![Ansehen](images/16-ansehen.jpg)
 
-![separators](images/reveal4.jpg)
+- Ergebnis sieht so aus:
 
-- **separator:** Defines a separator for horizontal slides. Look into this README.md file how this works. If you put this comment into the markdown text, the report will ignore it and revealjs will create a slide page. So you have to define what should be on your slides. 
-
-  
-<!-- v -->
-
-![separators](images/reveal4.jpg)
-
-- **verticalSeparator:** Defines a vertical separator, means that if you put this in the markdown text, then a vertical slide will be created. This means you can navigate with arrow-down on the keyboard to this slide. 
-- **HINT** I use this a lot for **hiding** information in slides or provide backup slides or just **hide** stuff in slide so that it is only in the PDF report. Advantage: get the details out of the presentation but still have it available if necessary. Look it up in this README.md code. E.g. this part is also not horizontally visible, thus available on the last slide by going **down**
- 
-<!-- v -->
-
-- `transition: 'slide'` - set the transition from slide to slide to None - Fade - Slide - Convex - Concave - Zoom 
-- `parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'` - nice feature of having a parallax background image, means it moves when going from slide to slide. 
-- `autoSlide: 4000` - have your presentation run automatically, 4000 means 4 seconds
-
-### More information and links
-
-- [webpro/reveal-md: reveal.js on steroids! Get beautiful reveal.js presentations from any Markdown file](https://github.com/webpro/reveal-md)
-- [The HTML presentation framework | reveal.js](https://revealjs.com/)
-- [Präsentationen mit Markdown, reveal.js und Github Pages: mein neuer Workflow – Lost and Found (GERMAN)](https://wittenbrink.net/lostandfound/praesentationen-mit-markdown-reveal-js-und-github-pages-mein-neuer-workflow/)
+![Ergebnis](images/17-bericht.jpg)
