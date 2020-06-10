@@ -42,7 +42,7 @@ Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3
 ## Rhenania Hinsbeck Webseiten - Typo3
 
 - Dieses Dokument ist eine Anleitung für Trainer und Offizielle.
-- Trainer sollen mit Hilfe dieser Anleitung in der Lage sein, sich in Typo3 - das Content Management System für die Webseiten [www.rhenaniahinsbeck.de](https://www.rhenaniahinsbeck.de) einzuloggen, und Fotos und Berichte ihrer Mannschaft zu veröffentlichen
+- Trainer sollen mit Hilfe dieser Anleitung in der Lage sein, sich in Typo3 - das Content Management System für die Webseiten [www.rhenaniahinsbeck.de/typo3](https://www.rhenaniahinsbeck.de/typo3) einzuloggen, und Fotos und Berichte ihrer Mannschaft zu veröffentlichen
 
 <!-- s -->
 
@@ -169,7 +169,7 @@ Natürlich sollen auch Bilder und Text auf diese Seite. <!-- s -->
 <!-- s -->
 
 - Jetzt ist die Seite veröffentlicht. 
-- Um das Ergebnis anzuschauen entweder auf [www.rhenaniahinsbeck.de]](https://www.rhenaniahinsbeck.de/) gehen und bis zur Seite klicken oder einfacher:
+- Um das Ergebnis anzuschauen entweder auf [www.rhenaniahinsbeck.de](https://www.rhenaniahinsbeck.de/) gehen und bis zur Seite klicken oder einfacher:
 - auf das Dateisymbol klicken
 
 <!-- s -->
