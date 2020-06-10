@@ -13,5 +13,5 @@ jobs:
           args: "README.md -o output/report.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
-          name: report.pdf
+          name: rhenania-hinsbeck-anleitung-webseite-redakteure.pdf
           path: output
