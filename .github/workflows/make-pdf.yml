@@ -10,7 +10,7 @@ jobs:
       - run: mkdir output
       - uses: docker://dalibo/pandocker:latest
         with: 
-          args: "README.md -o output/report.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+          args: "README.md -o output/rhenania-hinsbeck-anleitung-webseite-redakteure.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
       - uses: actions/upload-artifact@master
         with:
           name: rhenania-hinsbeck-anleitung-webseite-redakteure.pdf
