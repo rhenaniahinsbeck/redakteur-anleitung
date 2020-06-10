@@ -48,9 +48,13 @@ Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3
 
 ## Einloggen auf www.rhenaniahinsbeck.de
 
+<!-- s -->
+
 - Einen Internetbrowser auf dem PC öffnen und [www.rhenaniahinsbeck.de](https://www.rhenaniahinsbeck.de/typo3/) eingeben
 
 ![Einloggen](images/01-einloggen.jpg)
+
+<!-- s -->
 
 - Hier **Benutzername** und **Passwort** eintragen und auf **Login** drücken
 
@@ -59,9 +63,13 @@ Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3
   
 ![Seitenübersicht](images/02-uebersicht.jpg)
 
+<!-- s -->
+
 ## Einen neuen Spielbericht anlegen
 
 Für das Anlegen eines neuen Spielberichtes muss zuerst eine neue Seite angelegt werden.
+
+<!-- s -->
 
 ### Neue Seite anlegen
 
@@ -69,21 +77,31 @@ Für das Anlegen eines neuen Spielberichtes muss zuerst eine neue Seite angelegt
 
 ![Ausklappen](images/03-ausklappen.jpg)
 
+<!-- s -->
+
 - Dort auf den ersten Eintrag klicken, wo man auch eine neue Seite (also Bericht) anlegen möchte
 
 ![click-seite](images/03-click-document.jpg)
+
+<!-- s -->
 
 - Jetzt erscheint ein Menu, dort auf **neu** klicken
 
 ![neu](images/04-neu.jpg)
 
+<!-- s -->
+
 - Den Titel und den Untertitel ausfüllen, weshalb Untertitel, sehen wir später
 
 ![Seite neu erstellen](images/05-seite-neu-erstellen.jpg)
 
+<!-- s -->
+
 - Mit dem Untertitel, wird auf der Seite der Untertiteltext bestimmt, siehe:
 
 ![](images/06-seite-neu-erstellen.jpg)
+
+<!-- s -->
 
 - Habt ihr Titel und Untertitel ausgefüllt, speichern!
 
@@ -91,21 +109,29 @@ Für das Anlegen eines neuen Spielberichtes muss zuerst eine neue Seite angelegt
 
 - Jetzt ist die Seite schon verfügbar, allerdings noch ohne Inhalt, außer Titel und Untertitel.
 
+<!-- s -->
+
 ### Inhalt der neuen Seite anlegen
 
-Natürlich sollen auch Bilder und Text auf diese Seite. 
+Natürlich sollen auch Bilder und Text auf diese Seite. <!-- s -->
 
 - Im Seitenbaum auf der linken Seite auf die gerade neu erstellt Seite mittig klicken
 
 ![Neuer Inhalt](images/08-neuer-inhalt.jpg)
 
+<!-- s -->
+
 - Auf **+ Inhalt** klicken
 
 ![Inhalt hinzufügen](images/09-inhalt-hinzu.jpg)
 
+<!-- s -->
+
 - **Text & Bilder** auswählen
 
 ![Text und Bilder](images/10-text-bilder.jpg)
+
+<!-- s -->
 
 - Auf der folgenden Seite 
   - Auf dem Reiter **Allgemein**
@@ -113,7 +139,11 @@ Natürlich sollen auch Bilder und Text auf diese Seite.
   - Das **Datum** eintragen
   - Unter **Text** den Spielbericht/Turnierbericht/Sonstiges eintragen
 
+<!-- s -->
+
 ![Bericht](images/11-bericht.jpg)
+
+<!-- s -->
 
 - Um Bilder hinzuzufügen im Reiter auf **Bilder** klicken
 - Auf Bild hinzufügen klicken um Bilder hochzuladen und auszuwählen. 
@@ -124,21 +154,35 @@ Natürlich sollen auch Bilder und Text auf diese Seite.
 - Anzahl Spalten bietet sich 1 oder 2 an, aber auch hier, je nach Gusto wählen, ggf. später ändern falls nicht gefällt.
 - Zum Schluss wieder Speichern wie oben beschrieben.
 
+<!-- s -->
+
 ![Bilder](images/12-bericht-bilder.jpg)
+
+<!-- s -->
 
 ![Bilder upload](images/13-pic-upload.jpg)
 
+<!-- s -->
+
 ![Save](images/14-save.jpg)
+
+<!-- s -->
 
 - Jetzt ist die Seite veröffentlicht. 
 - Um das Ergebnis anzuschauen entweder auf [www.rhenaniahinsbeck.de]](https://www.rhenaniahinsbeck.de/) gehen und bis zur Seite klicken oder einfacher:
 - auf das Dateisymbol klicken
 
+<!-- s -->
+
 ![Ergebnis](images/15-ergebnis.jpg)
+
+<!-- s -->
 
 - **Ansehen** auswählen
 
 ![Ansehen](images/16-ansehen.jpg)
+
+<!-- s -->
 
 - Ergebnis sieht so aus:
 
