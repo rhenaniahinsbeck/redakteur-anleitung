@@ -50,7 +50,7 @@ Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3
 
 <!-- s -->
 
-- Einen Internetbrowser auf dem PC öffnen und [www.rhenaniahinsbeck.de](https://www.rhenaniahinsbeck.de/typo3/) eingeben
+- Einen Internetbrowser auf dem PC öffnen und [www.rhenaniahinsbeck.de/typo3/](https://www.rhenaniahinsbeck.de/typo3/) eingeben
 
 ![Einloggen](images/01-einloggen.jpg)
 
