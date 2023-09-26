@@ -4,7 +4,7 @@ subtitle: "Rhenania Hinsbeck Webseiten - Anleitung für Trainer und Offizielle f
 author: [Stefan Sobek]
 date: "2020-06-10"
 subject: "Rhenania Hinsbeck Webseiten - Anleitung für Trainer und Offizielle für die Webseitenpflege in Typo3"
-keywords: [Fontys, Markdown, Agile]
+keywords: [Markdown, Rhenania Hinsbeck]
 lang: "en"
 titlepage: "true"
 logo: "images/rhenania-logo.jpg"
